@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-from transformers.tokenization_bert import BertTokenizer
+from transformers.models.bert.tokenization_bert import BertTokenizer
 from transformers import BertModel
 import pickle
 
